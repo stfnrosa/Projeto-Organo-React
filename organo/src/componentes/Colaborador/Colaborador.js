@@ -1,7 +1,7 @@
 import './Colaborador.css'
 
-const Colaborador = ({nome, imagem, cargo, corPrimaria}) => {
-    const cssCabecalho = { backgroundColor: corPrimaria }
+const Colaborador = ({nome, imagem, cargo, corDeFundo}) => {
+    const cssCabecalho = { backgroundColor: corDeFundo }
 
     return (
         <div className="colaborador">
