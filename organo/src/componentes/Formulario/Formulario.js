@@ -47,7 +47,7 @@ const Formulario = (props) => {
             valor={cargo}
             aoAlterado={valor => setCargo(valor)}
             />
-
+corrigindo 
             <CampoTexto 
             label="Imagem" 
             placeholder = "Informe o endereço da imagem"
